@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* font-family: "Mulish", sans-serif; */
+
+@import "tailwindcss";
+
+@theme {
+  --color-bodyDark: #080808;
+  --color-primaryDark: #0e0e0e;
+  --color-secondaryDark: #0e0e0e;
+  --color-primaryLight: #DDDDDD;
+  --color-borderColor: #202020;
+  --color-themeBlue: #022EFD;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: "Mulish", sans-serif;
+  background-color: var(--color-bodyDark);
+  color: var(--color-primaryLight);
+}
